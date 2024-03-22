@@ -1,0 +1,43 @@
+#vite {
+    position: absolute;
+    bottom: 8rem;
+}
+
+#html {
+    position: absolute;
+    left: 9rem;
+    top: 4rem;
+}
+
+#sass {
+    position: absolute;
+    right:8.5rem;
+    bottom: 1.5rem;
+}
+
+.dots {
+
+  #vite, #html, #sass {
+      position: relative;
+      width: 5em;
+      height: 5em;
+      overflow: hidden;
+      animation: spin 4s ease infinite;
+  }
+
+  #react {
+    position: absolute;
+    top: 18rem;
+    width: 5em;
+    height: 5em;
+    overflow: hidden;
+    animation: spin 4s ease infinite;
+  }
+}
+  
+@keyframes spin {
+  60%,
+  100% {
+    transform: rotate(360deg);
+  }
+}
