@@ -17,13 +17,13 @@ const HomePage = () => {
                     <div id='left'>
 
                         <Link to='/experience' id='experience'>
+                            <p>Mon <br/> expérience <br/> professionelle</p>
                             <MdOutlineWorkHistory />
-                            <p>Mon expérience professionelle</p>
                         </Link>
 
                         <Link to='/skills' id='skills'>
+                            <p>Mes <br/> compétences</p>
                             <GiSkills />
-                            <p>Mes compétences</p>
                         </Link>
 
                         <Link to='/contact' id='contact'>
@@ -31,10 +31,6 @@ const HomePage = () => {
                             <GrContact />
                         </Link>
 
-                    </div>
-
-                    <div id='center'>
-                        <img id='devWeb' src='/web-development.svg' alt='webDev' />
                     </div>
 
                     <div id='right'>
@@ -47,9 +43,10 @@ const HomePage = () => {
 
                 <section id='bottom'>
 
-                    <p>Bonjour le monde!</p>
+                    <p>Bonjour!</p>
                     <p>Passionné par le développement web, vous pourrez retrouver sur mon portefolio tous ce qu&apos;il y
-                    à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>   
+                    à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>
+                    <p>Ce portfolio et les nombreux projets à venir vont me permettre de continer à progresser aussi bien avec ReactJS qu&apos;avec Symfony</p>   
                     <div>   
                         <a href='https://www.linkedin.com/in/jeremy-lamacq/'  target='_blank' rel='noreferrer'><FaLinkedin /></a>
                         <a href='https://github.com/JeremyLamacq'  target='_blank' rel='noreferrer'><FaGithubSquare/></a>

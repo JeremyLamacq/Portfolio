@@ -13,12 +13,10 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route path='/' element= {<HomePage /> }/>
-      </Routes>
       <Header />
         <Routes>
           {/* <Route path='/loading' element= {<Loading />} /> */}
+          <Route path='/' element= {<HomePage /> }/>
           <Route path="*" element={<ErrorPage />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/skills' element={<Skills />} />

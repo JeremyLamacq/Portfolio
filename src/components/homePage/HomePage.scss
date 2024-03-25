@@ -1,8 +1,9 @@
 h1{
 
     text-align: center;
-    background-color: #f2e8dc;
-    color: #fe7d34;
+    background: linear-gradient(20deg, #33474b, #a1bdc3);
+    color: #cb9312;
+    text-shadow: 0px 0.5px #333333;
     
     @media screen and (max-width: 891px) {
         padding: 6px auto;
@@ -17,35 +18,38 @@ h1{
 
 main{
 
-    width: 100vw;
-    height: auto;
+    width: 100%;
 
     #top{
 
         display: flex;
         width: 100%;
-        background-color: #faf2e7;
+        background: linear-gradient(to left, #0c3038, #114550, #165664);
         padding-top: 1%;
+        border-top: #456166 2px solid;
+        border-bottom: #456166 2px solid;
 
         #left {
 
             display: flex;
-            width: 52%;
-            flex-direction: column;
-            justify-content: space-around;
+            width: 55%;
+            // flex-direction: column;
+            flex-direction: row;
+            justify-content: end;
+            align-items: end;
+            gap: 15%;
 
             #experience {
 
-                text-align: start;
-                font-size: 80px;
+                font-size: 10em;
                 background-color: rgba($color: #000000, $alpha: 0);
-                color: #fe7d34;
+                color: #cb9312;
                 border: none;
                 cursor: pointer;
                 text-decoration: none;
                 &:hover{
                     p{
-                        display: contents;
+                        display: flex;
                         font-size: x-large;
                     }
                 }
@@ -53,36 +57,32 @@ main{
 
             #skills {
 
-                text-align: center;
-                font-size: 80px;
+                font-size: 10em;
                 background-color: rgba($color: #000000, $alpha: 0);
-                color: #fe7d34;
+                color: #cb9312;
                 border: none;
                 cursor: pointer;
                 text-decoration: none;
 
                 &:hover{
-                    padding-left: 23%;
                     p{
-                        display: contents;
+                        display: flex;
                         font-size: x-large;
                     }
                 }
             }
 
             #contact {
-                text-align: end;
-                font-size: 80px;
+                font-size: 10em;
                 background-color: rgba($color: #000000, $alpha: 0);
-                color: #fe7d34;
+                color: #cb9312;
                 border: none;
                 cursor: pointer;
                 text-decoration: none;
 
                 &:hover{
-                    padding-left: 50%;
                     p{
-                        display: contents;
+                        display: flex;
                         font-size: x-large;
                     }
                 }
@@ -92,36 +92,13 @@ main{
             }
         }
 
-        #center {
-
-            width: 12%;
-            display: flex;
-            align-items: start;
-            justify-content: center;
-
-            #devWeb {
-                width: 80%;
-            }
-        }
-
-
         #right {
     
-            width: 53%;           
+            width: 42%;
             
             #avatar {
-                
-                
-                @media screen and (max-width: 1024px) {
-                    
-                    width: 100%
-                }
-                
-                @media screen and (min-width: 1024px) {
-                    
-                    width: 100%;
-                    
-                }
+                width: 100%;            
+    
             }    
         }
     }
@@ -130,8 +107,8 @@ main{
 
     #bottom {
 
-        background-color: #f2e8dc;
-        color: #fe7d34;
+        background: linear-gradient(160deg, #33474b, #a1bdc3);
+        color: #cb9312;
         text-align: center;
         width: 100%;
         display: flex;
@@ -141,7 +118,8 @@ main{
 
         p {
             width: 100%;
-            font-size: larger;            
+            font-size: larger;      
+            text-shadow: 1px 1px #333333;      
         }     
         
         div {
@@ -149,8 +127,7 @@ main{
             a {
                 font-size: 40px;
                 background-color: rgba($color: #000000, $alpha: 0);
-                color: #fe7d34;
-                // border: none;
+                color: #cb9312;
                 cursor: pointer;
             }
         }
