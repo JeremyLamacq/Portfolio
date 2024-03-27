@@ -1,0 +1,52 @@
+@media (max-width: 599px) {
+
+    #burgerIcon {
+
+        position: absolute;
+        bottom: 3%;
+        left: 10%;
+        border: solid #cb9312 2px;
+        border-radius: 50%;
+        padding: 8px 8px 4px 8px;
+        color: #cb9312;
+        font-size: larger;
+        z-index: 0;
+    }
+
+    #burgerMenu {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+
+        .button {
+            text-decoration: none;
+            color: #165664;
+            background-color: #cb9312;
+            width: max-content;
+            padding: 4px;
+            border-radius: 15em;
+            cursor: pointer;
+            z-index: 2;
+        }
+    }
+
+
+    #fullScreen {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+@media (min-width:600px) {
+    #burgerIcon, #burgerMenu {
+        display: none;
+    }
+}

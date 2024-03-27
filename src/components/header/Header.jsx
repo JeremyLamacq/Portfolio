@@ -17,8 +17,8 @@ const Header = () => {
 
             <Link to='/' id="accueil"> Accueil</Link>
             <Link to='/experience' id="experience"> Expérience</Link>
-            <Link to='skills' id="skills"> Compétence</Link>
-            <Link to='contact' id="contact"> Contact</Link>
+            <Link to='/skills' id="skills"> Compétence</Link>
+            <Link to='/contact' id="contact"> Contact</Link>
 
         </div>
     )
