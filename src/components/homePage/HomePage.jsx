@@ -8,54 +8,53 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
     
     return (
-        <>
-            <h1>Lamacq Jeremy - Développeur Web</h1>
+        <main id='mainHomePage'>
+        
+            <h1 id='h1'>Lamacq Jeremy - Développeur Web</h1>
+
+            <section id='top'>
+
+                <div id='left'>
+
+                    <Link to='/experience' id='experience'>
+                        <p>Mon <br/> expérience <br/> professionelle</p>
+                        <MdOutlineWorkHistory className='icons' />
+                    </Link>
+
+                    <Link to='/skills' id='skills'>
+                        <p>Mes <br/> compétences</p>
+                        <GiSkills className='icons' />
+                    </Link>
+
+                    <Link to='/contact' id='contact'>
+                        <p>Contactez-moi</p>
+                        <GrContact className='icons' />
+                    </Link>
+
+                </div>
+
+                <div id='right'>
+
+                    <img src='/portfolio3-rogné.png' alt='photo identité' />
+
+                </div>
             
-            <main>
-                <section id='top'>
+            </section>
 
-                    <div id='left'>
+            <section id='bottom'>
 
-                        <Link to='/experience' id='experience'>
-                            <p>Mon <br/> expérience <br/> professionelle</p>
-                            <MdOutlineWorkHistory className='icons' />
-                        </Link>
-
-                        <Link to='/skills' id='skills'>
-                            <p>Mes <br/> compétences</p>
-                            <GiSkills className='icons' />
-                        </Link>
-
-                        <Link to='/contact' id='contact'>
-                            <p>Contactez-moi</p>
-                            <GrContact className='icons' />
-                        </Link>
-
-                    </div>
-
-                    <div id='right'>
-
-                        <img src='/portfolio3-rogné.png' alt='photo identité' />
-
-                    </div>
+                <p>Bonjour!</p>
+                <p>Passionné par le développement web, vous pourrez retrouver sur mon portefolio tout ce qu&apos;il y
+                a à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>
+                <p>Ce portfolio et les nombreux projets à venir vont me permettre de continuer à progresser aussi bien avec ReactJS qu&apos;avec Symfony</p>   
+                <div>   
+                    <a href='https://www.linkedin.com/in/jeremy-lamacq/'  target='_blank' rel='noreferrer'><FaLinkedin /></a>
+                    <a href='https://github.com/JeremyLamacq'  target='_blank' rel='noreferrer'><FaGithubSquare/></a>
+                </div>
                 
-                </section>
+            </section>
 
-                <section id='bottom'>
-
-                    <p>Bonjour!</p>
-                    <p>Passionné par le développement web, vous pourrez retrouver sur mon portefolio tout ce qu&apos;il y
-                    a à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>
-                    <p>Ce portfolio et les nombreux projets à venir vont me permettre de continuer à progresser aussi bien avec ReactJS qu&apos;avec Symfony</p>   
-                    <div>   
-                        <a href='https://www.linkedin.com/in/jeremy-lamacq/'  target='_blank' rel='noreferrer'><FaLinkedin /></a>
-                        <a href='https://github.com/JeremyLamacq'  target='_blank' rel='noreferrer'><FaGithubSquare/></a>
-                    </div>
-                    
-                </section>
-
-            </main>
-        </>
+        </main>
     )
 
 }
