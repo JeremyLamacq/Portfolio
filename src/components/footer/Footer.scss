@@ -2,8 +2,8 @@
 
     #burgerIcon {
 
-        position: absolute;
-        bottom: 3%;
+        position: fixed;
+        bottom: 5%;
         left: 10%;
         border: solid #cb9312 2px;
         border-radius: 50%;
@@ -18,9 +18,10 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        position: absolute;
+        position: fixed;
         bottom: 10%;
         left: 10%;
+        z-index: 2;
 
         .button {
             text-decoration: none;
@@ -30,13 +31,13 @@
             padding: 4px;
             border-radius: 15em;
             cursor: pointer;
-            z-index: 2;
+            z-index: 3;
         }
     }
 
 
     #fullScreen {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;

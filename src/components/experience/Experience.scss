@@ -1,0 +1,110 @@
+#mainExperience {
+    background: linear-gradient(to left, #0c3038, #114550, #165664);
+    color: #cb9312;
+    text-shadow: 1px 1px #333333; 
+    width: 100%;
+    padding-bottom: 2%;
+
+    h1 {
+        margin: 0;
+        padding: 40px 0 ;
+        text-align: center;
+        background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+        border-top: #456166 1px solid;
+        border-bottom: #456166 1px solid;
+
+    }
+
+    .article {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            padding-top: 5%;
+
+            @media (min-width: 1200px) {
+                padding: 10% 0 5% 0;
+
+                &#first{
+                    padding: 2% 0 5% 0;
+                }
+            }
+
+            @media (min-width: 992px) {
+                font-size: 1.6em;
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            gap: 2%;
+            padding: 0 2%;
+            box-sizing: border-box;
+
+            @media (max-width: 767.9px) {
+                flex-direction: column;
+
+                &.toTop {
+                    flex-direction: column-reverse;
+                }
+            }
+            
+            p {
+                width: 70%;
+                text-align: justify;
+                font-size: larger;
+                background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+                border-radius: 50%;
+                padding: 7%;
+
+                @media (max-width: 1199.9px) {
+                    padding: 10%;
+                }
+
+                @media (max-width: 991.9px) {
+                width: 60%;
+                padding: 5% 10%;
+                border-radius: 150px;
+                }
+
+                @media (max-width: 767.9px) {
+                    width: 100%;
+                    box-sizing: border-box;                    
+                }
+
+                @media (max-width: 599.9px) {
+                    border-radius: 50px;
+                }
+
+            }
+            
+            .pictures {
+                width: 30%;
+                border: #a1bdc3 solid 0.2em;
+                border-radius: 25%;
+
+                @media (max-width: 1199.9px) {
+                    height: fit-content;
+                }
+
+                @media (max-width: 991.9px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 767.9px) {
+                    width: 100%;
+                }
+            }
+        }   
+    }
+
+
+
+
+}
