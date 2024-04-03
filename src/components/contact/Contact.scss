@@ -1,71 +1,91 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
+#mainContact {
 
-h1 {
-  text-align: center;
-  color: #a8a8a8;
-}
+  background: linear-gradient(to left, #0c3038, #165664, #0c3038);
+  color: #cb9312;
+  text-shadow: 1px 1px #333333; 
+  padding-bottom: 2%;
 
-form {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
-}
-
-input,
-textarea {
-  border: 0;
-  outline: 0;
-  padding: 1em;
-  border-radius: 8px;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  font-family: 'Merriweather', sans-serif;
-  resize: none;
-}
-
-#input-submit {
-  color: white;
-  background: #e74c3c;
-  cursor: pointer;
-}
-
-#input-submit:hover {
-  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-textarea {
-  height: 126px;
-}
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.right {
-  width: 50%;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
+  h1 {
+    margin: 0;
+    padding: 40px 0 ;
+    text-align: center;
+    background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+    border-top: #456166 1px solid;
+    border-bottom: #456166 1px solid;
   }
-}
 
-.cf:before,
-.cf:after {
-  content: ' ';
-  display: table;
-}
+  #contact-form {
 
-.cf:after {
-  clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    padding: 2% 0;
+
+    input[type="text"], input[type="email"] {
+      width: 20%;
+      height: 2em;
+      margin-bottom: 1%;
+      border-radius: 25px;
+      border: #a1bdc3 solid 0.2em;
+      padding: 0.5%;
+
+      @media(max-width: 1200px) {
+        width: 40%;
+      }
+    }
+
+    input[type="email"]{
+      width: 35%;
+
+      @media(max-width: 1200px) {
+        width: 55%;
+      }
+    }
+
+    textarea {
+      width: 50%;
+      height: 10em;
+      overflow: auto;
+      border-radius: 25px;
+      border: #a1bdc3 solid 0.2em;
+      padding: 1%;
+
+      @media(max-width: 1200px) {
+        width: 70%;
+      }
+    }
+
+    div.g-recaptcha {
+      margin: 2% 0;
+
+      @media(max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } 
+
+      iframe {
+        border-radius: 5px;
+
+        @media(max-width: 600px) {
+          border-radius: 0;
+          width: 76%;
+          padding: 0 15% 0 11.5%;
+
+        }
+      }
+    }
+
+    input[type="submit"] {
+      padding: 1% 4%;
+      border-radius: 25px;
+      border: #a1bdc3 solid 0.15em;
+      background: linear-gradient(to left, #33474b,  #a1bdc3, #a1bdc3, #33474b);
+      font-size: large;
+    }
+
+  }
 }
