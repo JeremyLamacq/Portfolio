@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import.meta.env;
 import emailjs from "@emailjs/browser";
 import DOMPurify from "dompurify";
 import "./Contact.scss";
-import "./Contact.scss";
 
 const ContactForm = () => {
+
   const [formState, setFormState] = useState({
     user_name: "",
     user_email: "",
