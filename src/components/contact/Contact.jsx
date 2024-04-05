@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import emailjs from "@emailjs/browser";
 import DOMPurify from "dompurify";
 import "./Contact.scss";
@@ -10,6 +11,7 @@ const ContactForm = () => {
     user_email: "",
     message: "",
   });
+  const navigate = useNavigate();
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -57,7 +59,7 @@ const ContactForm = () => {
       return;
     }
 
-    // Envoi du formulaire avec les données nettoyées
+    // Envoi du formulaire avec les données vérifiées
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -73,6 +75,7 @@ const ContactForm = () => {
             user_email: "",
             message: "",
           });
+          navigate('/');
         },
         (error) => {
           alert("Veuillez recommencer");
@@ -82,6 +85,7 @@ const ContactForm = () => {
             user_email: "",
             message: "",
           });
+          window.location.reload();
         }
       );
   };
