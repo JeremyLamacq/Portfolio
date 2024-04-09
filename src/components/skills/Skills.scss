@@ -1,0 +1,205 @@
+#mainSkills {
+
+    background: linear-gradient(to left, #0c3038, #165664, #0c3038);
+    color: #cb9312;
+    text-shadow: 1px 1px #333333;
+    padding-bottom: 2%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    h1 {
+        margin: 0;
+        padding: 40px 0;
+        text-align: center;
+        background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+        border-top: #456166 1px solid;
+        border-bottom: #456166 1px solid;
+    }
+
+    #slideshow {
+        width: 100%;
+        @media(min-width: 1200.1px) {
+            height: 20em;
+        }
+        @media(max-width: 1200px) {
+            height: 15em;
+        }
+        @media(max-width: 992px) {
+            height: 11em;
+        }
+        @media(max-width: 768px) {
+            height: 8.5em;
+        }
+        @media(max-width: 600px) {
+            height: 6.5em;
+        }
+        @media(max-width: 300px) {
+            height: 4em;
+        }
+    }
+
+    .entire-content {
+        margin: auto;
+        position: relative;
+        padding-top: 5%;
+        
+        @media (min-width: 1200.1px) {
+            width: 190px;
+            height: auto;
+            perspective: 1000px;
+        }
+        @media (max-width: 1200px) {
+            width: 150px;
+            height: auto;
+            perspective: 1000px;
+        }
+        @media (max-width: 992px) {
+            width: 130px;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            width: 110px;
+            height: auto;
+            perspective: 800px;
+        }
+        @media (max-width: 600px) {
+            width: 80px;
+            height: auto;
+            perspective: 500px;
+        }
+        @media (max-width: 300px) {
+            width: 55px;
+            height: auto;
+            perspective: 350px;
+        }
+        
+        .content-carrousel {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            animation: rotar 30s infinite linear;
+            transform-style: preserve-3d;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+
+            figure {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                
+                $number-of-figures: 10;
+                @media (min-width: 1200.1px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(310px);
+                        }
+                    }
+                }
+                @media (max-width: 1200px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(250px);
+                        }
+                    }
+                }
+                @media (max-width: 992px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(210px);
+                        }
+                    }
+                }
+                @media (max-width: 768px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(180px);
+                        }
+                    }
+                }
+                @media (max-width: 600px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(135px);
+                        }
+                    }
+                }
+                @media (max-width: 300px) {
+                    @for $i from 1 through $number-of-figures {
+                        &:nth-child(#{$i}) {
+                            transform: rotateY(#{0 + ($i - 1) * 40deg}) translateZ(90px);
+                        }
+                    }
+                }
+
+                .logo {
+
+                    @media (min-width: 1200.1px) {
+                        width: 120px;
+                        height: auto;
+                    }
+                    @media (max-width: 1200px) {
+                        width: 100px;
+                        height: auto;
+                    }
+                    @media (max-width: 992px) {
+                        width: 80px;
+                        height: auto;
+                    }
+                    @media (max-width: 768px) {
+                        width: 60px;
+                        height: auto;
+                    }
+                    @media (max-width: 600px) {
+                        width: 45px;
+                        height: auto;
+                    }
+                    @media (max-width: 300px) {
+                        width: 32px;
+                        height: auto;
+                    }
+                }
+            }
+            .shadow {
+                position: absolute;
+                box-shadow: 0px 0px 20px 0px #000;
+                margin: 0;
+                overflow: hidden;
+            }
+            img {
+                image-rendering: auto;
+                transition: all 300ms;
+                width: 100%;
+                height: auto;
+                
+                &:hover {
+                    transform: scale(1.2);
+                    transition: all 300ms;
+                }
+            }
+        }
+    }
+
+    section {
+        padding-bottom: 1%;
+
+        p {
+            text-align: center;
+            padding: 0 0 1% 0;
+        }
+    }
+
+    @keyframes rotar {
+        from {
+            transform: rotateY(0deg);
+        }
+
+        to {
+            transform: rotateY(360deg);
+        }
+    }
+}
