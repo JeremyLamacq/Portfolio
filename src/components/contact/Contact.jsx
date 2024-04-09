@@ -77,9 +77,9 @@ const ContactForm = () => {
           });
           navigate('/');
         },
-        (error) => {
+        () => {
           alert("Veuillez recommencer");
-          console.log(error);
+          // console.log(error);
           setFormState({
             user_name: "",
             user_email: "",
