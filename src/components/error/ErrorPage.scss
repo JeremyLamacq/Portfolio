@@ -1,0 +1,67 @@
+#mainError {
+    background: linear-gradient(to left, #0c3038, #114550, #165664);
+    color: #cb9312;
+    text-shadow: 1px 1px #333333; 
+    width: 100%;
+    padding-bottom: 2%;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        padding: 40px 0 ;
+        background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+        border-top: #456166 1px solid;
+        border-bottom: #456166 1px solid;
+
+    }
+
+    img {
+        width: 20%;
+        padding-top: 1.5%;
+
+        @media(max-width: 768px) {
+            width: 30%;
+            padding-top: 3%;
+        }
+
+        @media(max-width: 600px) {
+            width: 40%;
+        }
+    }
+
+    p {
+        padding: 1% 20%;
+        font-size: x-large;
+
+        @media(max-width: 768px) {
+            padding: 4% 20%;
+            font-size: larger;
+        }
+    }
+
+    button {
+
+        width: 10%;
+        border-radius: 45%;
+        font-size: x-large;
+        padding: 0.3% 0;
+        text-shadow: 1px 1px #333333; 
+        cursor: pointer;
+        color: #cb9312;
+        background: linear-gradient(to left, #33474b, #a1bdc3, #33474b);
+    
+        @media(max-width: 992px) {
+            width: 16%;
+        }
+        @media(max-width: 768px) {
+            width: 20%;
+        }
+        @media(max-width: 600px) {
+            width: 25%;
+            font-size: large;
+        }
+        @media(max-width: 400px) {
+            width: 40%;
+        }
+    }
+}
