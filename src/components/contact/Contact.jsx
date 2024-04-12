@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import DOMPurify from "dompurify";
 import "./Contact.scss";
 
 const ContactForm = () => {
-
   const [formState, setFormState] = useState({
     user_name: "",
     user_email: "",
@@ -14,8 +13,8 @@ const ContactForm = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://www.google.com/recaptcha/api.js';
+    const script = document.createElement("script");
+    script.src = "https://www.google.com/recaptcha/api.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
@@ -75,7 +74,7 @@ const ContactForm = () => {
             user_email: "",
             message: "",
           });
-          navigate('/');
+          navigate("/");
         },
         () => {
           alert("Veuillez recommencer");
@@ -121,9 +120,13 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
-        <div className="g-recaptcha" data-sitekey={import.meta.env.VITE_DATA_SITEKEY}/>
+        <div
+          className="g-recaptcha"
+          data-sitekey={import.meta.env.VITE_DATA_SITEKEY}
+        />
         <input type="submit" value="Envoyer" />
       </form>
+      <div id="transition"/>
     </main>
   );
 };
