@@ -29,6 +29,7 @@ const Skills = () => {
                 <p>Nous nous sommes ensuite spécialisé vers un framework ou une librairie, et dans un premier temps je suis partie sur la librairie Front ReactJS où nous y avons également vu TypeScript et React Redux.</p>
                 <p>A la suite de la formation j&apos;ai pu suivre les cours en replay pour apprendre à utiliser le frameword PHP Symfony qui, allié à Twig, permet de développer des projets complet et puissant</p>
             </section>
+            <div id="transition"/>
 
         </main>
     )

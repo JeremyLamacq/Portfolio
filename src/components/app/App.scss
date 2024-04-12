@@ -22,5 +22,69 @@ body {
     @media (max-width: 600px) {
       background: linear-gradient(to right, #81999e, #a1bdc3);
     }
+
+    //style pour les différentes transitions internes
+    #transition {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background-color: #859da2;
+  
+      animation: descent 2s ease-in forwards;
+  
+      @media(max-width:600px){
+        @keyframes descent {
+          0% {
+            transform: translateY(0vh);
+          }
+          100% {
+            transform: translateY(100vh);
+          }
+        }
+      }
+      @media(max-width:768px){
+        @keyframes descent {
+          0% {
+            transform: translateY(4.5vh);
+          }
+          100% {
+            transform: translateY(100vh);
+          }
+        }
+      }
+      @media(max-width:992px){
+        @keyframes descent {
+          0% {
+            transform: translateY(4.5vh);
+          }
+          100% {
+            transform: translateY(100vh);
+          }
+        }
+      }
+      @media(max-width:1200px){
+        @keyframes descent {
+          0% {
+            transform: translateY(6vh);
+          }
+          100% {
+            transform: translateY(100vh);
+          }
+        }
+      }
+      @media(min-width:1200.1px){
+        @keyframes descent {
+          0% {
+            transform: translateY(6.7vh);
+          }
+          100% {
+            transform: translateY(100vh);
+          }
+        }
+      }
+    }
   }
 }

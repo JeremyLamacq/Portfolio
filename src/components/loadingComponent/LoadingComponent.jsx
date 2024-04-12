@@ -13,7 +13,7 @@ const LoadingComponent = () => {
   }, []);
 
   return (
-    <main id='mainLoader' style={{ opacity: isLoading ? 1 : 0, transition: 'opacity 0.5s ease', display: !isLoading ? 'none' : '' }}>
+    <main id='mainLoader' style={{ opacity: isLoading ? 1 : 0, transition: 'opacity 1.5s linear', display: !isLoading ? 'none' : '' }}>
         <h1>Bienvenu sur mon Portfolio</h1>
     </main>
   );
