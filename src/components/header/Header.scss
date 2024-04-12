@@ -45,3 +45,11 @@
             display: none;
     }
 }
+
+body .react-bubbly-transitions__bubbly-link {
+    color: #cb9312;
+  }
+  body .react-bubbly-transitions__bubbly-link.active {
+    text-decoration: underline;
+    
+  }
