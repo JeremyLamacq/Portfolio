@@ -9,12 +9,12 @@
         color: #cb9312;
         text-shadow: 0px 0.5px #333333;
         
-        @media (max-width: 991.9px) {
+        @media (max-width: 992px) {
             margin: 0;
             padding: 6px auto;
         }
     
-        @media (min-width: 992px) {
+        @media (min-width: 992.1px) {
             margin: 0;
             padding: 40px 0;
         }
@@ -29,7 +29,7 @@
         border-top: #456166 2px solid;
         border-bottom: #456166 2px solid;
 
-        @media (max-width: 991.9px) {
+        @media (max-width: 992px) {
             flex-direction: column-reverse;
         }
 
@@ -42,7 +42,7 @@
             align-items: end;
             gap: 15%;
 
-            @media (max-width: 991.9px) {
+            @media (max-width: 992px) {
                 flex-direction: row;
                 justify-content: space-around;
                 width: 100%;
@@ -50,7 +50,7 @@
                 text-align: center;
             }
 
-            @media (min-width: 992px) and (max-width: 1199.9px) {
+            @media (min-width: 992.1px) and (max-width: 1200px) {
                 justify-content: space-around;
                 gap: 10%;
                 text-align: center;
@@ -66,22 +66,22 @@
                 cursor: pointer;
                 text-decoration: none;
 
-                @media (max-width: 991.9px) {
+                @media (max-width: 992px) {
                     font-size: 1em;
                 }
 
-                @media (min-width: 992px) and (max-width: 1199.9px) {
+                @media (min-width: 992.1px) and (max-width: 1200px) {
                     font-size: 7em;
                 }
 
                 &:hover{
                     p{
 
-                        @media (min-width: 992px) and (max-width: 1199.9px) {
+                        @media (min-width: 992.1px) and (max-width: 1200px) {
                             display: flex;
                             font-size: large;                        }
 
-                        @media (min-width: 1200px) {
+                        @media (min-width: 1200.1px) {
                             display: flex;
                             font-size: x-large;
                         }
@@ -98,22 +98,22 @@
                 cursor: pointer;
                 text-decoration: none;
 
-                @media (max-width: 991.9px) {
+                @media (max-width: 992px) {
                     font-size: 1em;
                 }
 
-                @media (min-width: 992px) and (max-width: 1199.9px) {
+                @media (min-width: 992.1px) and (max-width: 1200px) {
                     font-size:7em;
                 }
 
                 &:hover{
                     p{
                         
-                        @media (min-width: 992px) and (max-width: 1199.9px) {
+                        @media (min-width: 992.1px) and (max-width: 1200px) {
                             display: flex;
                             font-size: large;                        }
 
-                        @media (min-width: 1200px) {
+                        @media (min-width: 1200.1px) {
                             display: flex;
                             font-size: x-large;
                         }
@@ -129,11 +129,11 @@
                 cursor: pointer;
                 text-decoration: none;
 
-                @media (max-width: 991.9px) {
+                @media (max-width: 992px) {
                     font-size: 1em;
                 }
 
-                @media (min-width: 992px) and (max-width: 1199.9px) {
+                @media (min-width: 992.1px) and (max-width: 1200px) {
                     font-size: 7em;
                 }
 
@@ -142,11 +142,11 @@
 
                         font-size: 1em;
 
-                        @media (min-width: 992px) and (max-width: 1199.9px) {
+                        @media (min-width: 992.1px) and (max-width: 1200px) {
                             display: flex;
                             font-size: large;                        }
 
-                        @media (min-width: 1200px) {
+                        @media (min-width: 1200.1px) {
                             display: flex;
                             font-size: x-large;
                         }
@@ -155,7 +155,7 @@
             }
             p {
 
-                @media (min-width: 992px) {
+                @media (min-width: 992.1px) {
                     display:none;
                 }
             }
@@ -165,7 +165,7 @@
     
             width: 42%;
 
-            @media (max-width: 991.9px) {
+            @media (max-width: 992.1px) {
                 width: 65%;
                 
             }
@@ -173,7 +173,7 @@
             img {
                 width: 100%;   
 
-                @media (max-width: 991.9px) {
+                @media (max-width: 992px) {
 
                     clip-path: inset(0 5% 0 60%);
 

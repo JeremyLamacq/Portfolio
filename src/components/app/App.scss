@@ -10,16 +10,16 @@ body {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     
-    @media (min-width: 1200px) {
+    @media (min-width: 1200.1px) {
       background: linear-gradient(to right, #4e6469, #a1bdc3);
     }
-    @media (max-width: 1199.9px) {
+    @media (max-width: 1200px) {
       background: linear-gradient(to right, #5a7176, #a1bdc3);
     }
-    @media (max-width: 991.9px) {
+    @media (max-width: 992px) {
       background: linear-gradient(to right, #62797e, #a1bdc3);
     }
-    @media (max-width: 599.9px) {
+    @media (max-width: 600px) {
       background: linear-gradient(to right, #81999e, #a1bdc3);
     }
   }
