@@ -1,0 +1,39 @@
+#mainLoader {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to left, #0c3038, #114550, #0c3038);
+
+    h1 {
+        margin: 0;
+        color: #cb9312;
+        border: #cb9312 2px solid;
+        padding: 5%;
+        border-radius: 50%;
+        animation: mouv 2s linear forwards;
+
+        @keyframes mouv {
+            0% {
+                transform: translateX(0);
+            }
+            33% {
+                transform: translateX(75px);
+            }
+            66% {
+                transform: translateX(-75px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    }
+
+}
