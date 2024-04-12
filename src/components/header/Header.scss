@@ -1,5 +1,5 @@
 #navBar {
-    @media (min-width: 600px) {
+    @media (min-width: 600.1px) {
         background: linear-gradient(180deg, #0c3038, #114550, #165664);
         display: flex;
         padding: 1% 0 1% 0;
@@ -41,7 +41,7 @@
         }
     }
     
-    @media (max-width:599.9px) {
+    @media (max-width:600px) {
             display: none;
     }
 }
