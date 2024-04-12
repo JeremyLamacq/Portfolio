@@ -53,6 +53,7 @@ const HomePage = () => {
                 </div>
                 
             </section>
+            <div id="transition"/>
 
         </main>
     )
