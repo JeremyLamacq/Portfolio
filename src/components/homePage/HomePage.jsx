@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <main id='mainHomePage'>
         
-            <h1 id='h1'>Lamacq Jeremy - Développeur Web</h1>
+            <h1 id='h1'>Lamacq Jérémy - Développeur Web</h1>
 
             <section id='top'>
 
