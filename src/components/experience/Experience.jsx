@@ -11,7 +11,7 @@ const Experience = () => {
                 <h2 id='first'>Aujourd&apos;hui</h2>
                 <div>
                     <img src='/experiences/DEV.jpg' alt='developpement web' className='pictures'/>
-                    <p>Actuellement en intérim dans une fromagerie, cela me permet de garder un emploi rémunéré et de développer mes compétences aussi bien en Front qu’en Back en dehors des 3x8h.</p>
+                    <p>Je partage actuellement mon temps entre le développement de ce portfolio puis un projet avec Symfony pour une école et un travail en 3x8h en tant qu&apos;intérimaire</p>
                 </div>
             </article>
 
@@ -19,13 +19,12 @@ const Experience = () => {
                 <h2>2020/2023 Chargé d&apos;affaires</h2>
                 <div className='toTop'>
                     <p>
-                        Mon travail consistait à aller démarcher les clients susceptibles d’avoir besoin à un moment ou à un autre de levage ou transport + levage. 
-                        J’avais ensuite à charge la ou les visites techniques pour définir le matériel à envoyer, à effectuer les différents devis, 
-                        et enfin à organiser les différents chantiers au planning avec l’exploitant et lui fournir toutes les informations nécessaires 
+                        Mon travail consistait à démarcher les clients susceptibles d’avoir un besoin de levage ou transport + levage. 
+                        Je m&apos;occupais ensuite de la ou les visites techniques pour définir le matériel à utiliser,d&apos;effectuer les différents devis, 
+                        et enfin d&apos;organiser les différents chantiers au planning avec l’exploitant pour ensuite lui fournir toutes les informations nécessaires 
                         à la réalisation du chantier (plans, arrêté de voirie effectués par les soins, etc…).
-                        Au besoin je pouvais aller sur les chantiers pour le démarrage ou en cas de litige, 
-                        mais la plupart du temps je récupérais juste les feuilles d’heures après chantier 
-                        rempli par notre salarié et validé par le client pour finaliser le prix et l’envoyer en facturation.
+                        Il n&apos;était pas rare que j&apos;aille sur les chantiers pour le démarrage, 
+                        je préparais ensuite la facturation client en comptabilisant les heures passées en chantier pour ensuite valider auprès du client
                     </p>
                     <img src='/experiences/CHARGE_AFFAIRES.jpg' alt='chargé d&apos;affaires' className='pictures'/>
                 </div>
@@ -47,7 +46,7 @@ const Experience = () => {
                 <div className='toTop'>
                     <p>
                         Au sein de chantiers de maçonnerie sur des constructions d’immeubles essentiellement mon rôle était d’organiser le chantier niveau stockage, 
-                        de préparer les différents accessoires pour les ouvriers et de les approvisionner au besoin.
+                        de préparer les différents accessoires pour les ouvriers et de les approvisionner en temps voulu.
                     </p>
                     <img src='/experiences/GRUE_A_TOUR.jpg' alt='grue a tour' className='pictures'/>
                 </div>
