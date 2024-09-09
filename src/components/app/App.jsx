@@ -1,14 +1,14 @@
 import './App.scss';
 import { Route, Routes } from 'react-router-dom';
-import HomePage from '../homePage/HomePage';
 import Header from '../header/Header';
-import Contact from '../contact/Contact';
+import HomePage from '../homePage/HomePage';
+import ErrorPage from '../error/ErrorPage';
 import Skills from '../skills/Skills';
 import Experience from '../experience/Experience';
+import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
-import ErrorPage from '../error/ErrorPage';
 import LoadingComponent from '../loadingComponent/LoadingComponent';
-import Projets from '../projets/projets';
+import Projets from '../projets/Projets';
 
 
 const App = () => {
