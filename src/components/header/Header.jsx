@@ -16,8 +16,9 @@ const Header = () => {
         <div id='navBar' style={{ display: location === '/' ? 'none' : ''}}>
 
             <Link to='/' id="accueil"> Accueil</Link>
-            <Link to='/experience' id="experience"> Expérience</Link>
             <Link to='/skills' id="skills"> Compétence</Link>
+            <Link to='/projets' id='projets'> Projets</Link>
+            <Link to='/experience' id="experience"> Expérience</Link>
             <Link to='/contact' id="contact"> Contact</Link>
 
         </div>

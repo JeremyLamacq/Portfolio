@@ -8,6 +8,7 @@ import Experience from '../experience/Experience';
 import Footer from '../footer/Footer';
 import ErrorPage from '../error/ErrorPage';
 import LoadingComponent from '../loadingComponent/LoadingComponent';
+import Projets from '../projets/projets';
 
 
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path='/experience' element={<Experience />} />
           <Route path='/skills' element={<Skills />} />
+          <Route path='/projets' element={<Projets />} />
+          <Route path='/experience' element={<Experience />} />
           <Route path='/contact' element={<Contact />} />
        </Routes>
       <Footer />

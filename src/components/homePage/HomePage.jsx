@@ -1,4 +1,5 @@
 import'./HomePage.scss';
+import { GrProjects } from "react-icons/gr";
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { GrContact } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
@@ -16,14 +17,20 @@ const HomePage = () => {
 
                 <div id='left'>
 
-                    <Link to='/experience' id='experience'>
-                        <p>Mon <br/> expérience <br/> professionelle</p>
-                        <MdOutlineWorkHistory className='icons' />
-                    </Link>
 
                     <Link to='/skills' id='skills'>
                         <p>Mes <br/> compétences</p>
                         <GiSkills className='icons' />
+                    </Link>
+
+                    <Link to='/projets' id='projets'>
+                        <p>Mes <br/> projets</p>
+                        <GrProjects className='icons' />
+                    </Link>
+
+                    <Link to='/experience' id='experience'>
+                        <p>Mon <br/> expérience <br/> professionelle</p>
+                        <MdOutlineWorkHistory className='icons' />
                     </Link>
 
                     <Link to='/contact' id='contact'>

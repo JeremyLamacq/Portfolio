@@ -40,7 +40,7 @@
             flex-direction: row;
             justify-content: end;
             align-items: end;
-            gap: 15%;
+            gap: 5.5%;
 
             @media (max-width: 992px) {
                 flex-direction: row;
@@ -51,11 +51,98 @@
             }
 
             @media (min-width: 992.1px) and (max-width: 1200px) {
-                justify-content: space-around;
-                gap: 10%;
+                justify-content: end;
+                gap: 5%;
+                text-align: center;
+            }
+
+            @media (min-width: 1200.1px) and (max-width: 1500px) {
+                justify-content: end;
+                gap: 5%;
                 text-align: center;
             }
             
+
+            
+            #skills {
+                
+                font-size:10em;
+                background-color: rgba($color: #000000, $alpha: 0);
+                color: #cb9312;
+                border: none;
+                cursor: pointer;
+                text-decoration: none;
+                
+                @media (max-width: 992px) {
+                    font-size: 1em;
+                }
+                @media (min-width: 992.1px) and (max-width: 1200px) {
+                    font-size:7em;
+                }
+                @media (min-width: 1200.1px) and (max-width: 1500px) {
+                    font-size:8em;
+                }
+                
+                &:hover{
+                    p{
+                        
+                        @media (max-width: 992px) {
+                            padding-bottom: 0;
+                        }
+                        @media (min-width: 992.1px) and (max-width: 1200px) {
+                            display: flex;
+                            font-size: large;
+                        }    
+                        @media (min-width: 1200.1px) {
+                            display: flex;
+                            font-size: x-large;
+                        }
+                    }
+                }
+            }
+
+            #projets {
+                font-size: 9em;
+                background-color: rgba($color: #000000, $alpha: 0);
+                color: #cb9312;
+                border: none;
+                cursor: pointer;
+                text-decoration: none;
+                margin-bottom: 7px;
+
+                @media (max-width: 992px) {
+                    font-size: 1em;
+                    margin-bottom: 0;
+                }
+                @media (min-width: 992.1px) and (max-width: 1200px) {
+                    font-size: 6.5em;
+                    margin-bottom: 0;
+                }
+                @media (min-width: 1200.1px) and (max-width: 1500px) {
+                    font-size:7.5em;
+                }
+
+                &:hover{
+                    p{
+
+                        font-size: 1em;
+                        padding-bottom: 12px;
+
+                        @media (max-width: 992px) {
+                            font-size: 1.5em;
+                            padding-bottom: 0;
+                        }
+                        @media (min-width: 992.1px) and (max-width: 1200px) {
+                            display: flex;
+                            font-size: large;                        }
+
+                        @media (min-width: 1200.1px) {
+                            display: flex;
+                            font-size: x-large;
+                        }
+                    }
+                }
+            }
 
             #experience {
 
@@ -69,50 +156,23 @@
                 @media (max-width: 992px) {
                     font-size: 1em;
                 }
-
                 @media (min-width: 992.1px) and (max-width: 1200px) {
                     font-size: 7em;
                 }
+                @media (min-width: 1200.1px) and (max-width: 1500px) {
+                    font-size:8em;
+                }
 
                 &:hover{
                     p{
 
-                        @media (min-width: 992.1px) and (max-width: 1200px) {
-                            display: flex;
-                            font-size: large;                        }
-
-                        @media (min-width: 1200.1px) {
-                            display: flex;
-                            font-size: x-large;
+                        @media (max-width: 992px) {
+                            padding-bottom: 0;
                         }
-                    }
-                }
-            }
-
-            #skills {
-
-                font-size:10em;
-                background-color: rgba($color: #000000, $alpha: 0);
-                color: #cb9312;
-                border: none;
-                cursor: pointer;
-                text-decoration: none;
-
-                @media (max-width: 992px) {
-                    font-size: 1em;
-                }
-
-                @media (min-width: 992.1px) and (max-width: 1200px) {
-                    font-size:7em;
-                }
-
-                &:hover{
-                    p{
-                        
                         @media (min-width: 992.1px) and (max-width: 1200px) {
                             display: flex;
-                            font-size: large;                        }
-
+                            font-size: large;
+                        }
                         @media (min-width: 1200.1px) {
                             display: flex;
                             font-size: x-large;
@@ -132,20 +192,26 @@
                 @media (max-width: 992px) {
                     font-size: 1em;
                 }
-
                 @media (min-width: 992.1px) and (max-width: 1200px) {
                     font-size: 7em;
+                }
+                @media (min-width: 1200.1px) and (max-width: 1500px) {
+                    font-size:8em;
                 }
 
                 &:hover{
                     p{
 
                         font-size: 1em;
+                        overflow: auto;
 
+                        @media (max-width: 992px) {
+                            padding-bottom: 0;
+                        }
                         @media (min-width: 992.1px) and (max-width: 1200px) {
                             display: flex;
-                            font-size: large;                        }
-
+                            font-size: large;
+                        }
                         @media (min-width: 1200.1px) {
                             display: flex;
                             font-size: x-large;

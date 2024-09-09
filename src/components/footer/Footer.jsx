@@ -25,18 +25,19 @@ const Footer = () => {
 
         return  (
         
-        <div style={{display: location === '/' ? 'none' : ''}}>
-            <div id="burgerIcon" onClick={handleOpenMenu}><RxHamburgerMenu /></div> 
-                
-            <div id="burgerMenu" style= {{ display: !isOpen ? 'none' : ''}} >
-                <Link to='/' onClick={handleCloseMenu} className="button"> Accueil</Link>
-                <Link to='/experience' onClick={handleCloseMenu} className="button"> Expérience</Link>
-                <Link to='/skills' onClick={handleCloseMenu} className="button"> Compétence</Link>
-                <Link to='/contact' onClick={handleCloseMenu} className="button"> Contact</Link>
+            <div style={{display: location === '/' ? 'none' : ''}}>
+                <div id="burgerIcon" onClick={handleOpenMenu}><RxHamburgerMenu /></div> 
+                    
+                <div id="burgerMenu" style= {{ display: !isOpen ? 'none' : ''}} >
+                    <Link to='/' onClick={handleCloseMenu} className="button"> Accueil</Link>
+                    <Link to='/skills' onClick={handleCloseMenu} className="button"> Compétence</Link>
+                    <Link to='/projets' onClick={handleCloseMenu} className="button"> Projets</Link>
+                    <Link to='/experience' onClick={handleCloseMenu} className="button"> Expérience</Link>
+                    <Link to='/contact' onClick={handleCloseMenu} className="button"> Contact</Link>
+                </div>
+                    
+                <div id="fullScreen" onClick={handleCloseMenu} style={{display: !isOpen ? 'none' : ''}}></div>
             </div>
-                
-            <div id="fullScreen" onClick={handleCloseMenu} style={{display: !isOpen ? 'none' : ''}}></div>
-        </div>
         )
 }
 

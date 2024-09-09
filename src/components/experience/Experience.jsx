@@ -11,7 +11,7 @@ const Experience = () => {
                 <h2 id='first'>Aujourd&apos;hui</h2>
                 <div>
                     <img src='/experiences/DEV.jpg' alt='developpement web' className='pictures'/>
-                    <p>Je partage actuellement mon temps entre le développement de ce portfolio puis un projet avec Symfony pour une école et un travail en 3x8h en tant qu&apos;intérimaire</p>
+                    <p>Je partage actuellement mon temps entre le développement de ce portfolio, divers projet PHP et JAVA avec en Front JavaScipt et ReactJS et un travail en 3x8h en tant que conducteur de ligne</p>
                 </div>
             </article>
 
@@ -62,8 +62,6 @@ const Experience = () => {
                 </div>
             </article>
             <div id="transition"/>
-
-
         </main>
     )
 }
