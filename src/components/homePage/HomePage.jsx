@@ -51,7 +51,7 @@ const HomePage = () => {
             <section id='bottom'>
 
                 <p>Bonjour!</p>
-                <p>Passionné par le développement web, vous pourrez retrouver sur mon portefolio tout ce qu&apos;il y
+                <p>Passionné par le développement web, vous pourrez retrouver sur mon porfolio tout ce qu&apos;il y
                 a à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>
                 <p>Ce portfolio et les nombreux projets à venir vont me permettre de continuer à progresser aussi bien avec ReactJS qu&apos;avec Symfony</p>   
                 <div>   
