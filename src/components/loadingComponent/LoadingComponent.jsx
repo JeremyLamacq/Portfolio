@@ -14,7 +14,7 @@ const LoadingComponent = () => {
 
   return (
     <main id='mainLoader' style={{ opacity: isLoading ? 1 : 0, transition: 'opacity 1.5s linear', display: !isLoading ? 'none' : '' }}>
-        <h1>Bienvenu sur mon Portfolio</h1>
+        <h1>Bienvenue sur mon Portfolio</h1>
     </main>
   );
 };

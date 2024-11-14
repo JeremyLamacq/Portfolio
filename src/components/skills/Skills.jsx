@@ -29,7 +29,7 @@ const Skills = () => {
                 <p>Pendant ma formation au sein de l&apos;école O&apos;clock, j&apos;ai pu découvrir le développement web aussi bien Back que Front.</p>
                 <p>Nous nous sommes ensuite spécialisé vers un framework ou une librairie, et dans un premier temps je suis partie sur la librairie Front ReactJS où nous y avons également vu TypeScript et React Redux.</p>
                 <p>A la suite de la formation j&apos;ai pu suivre les cours en replay pour apprendre à utiliser le frameword PHP Symfony qui, allié à Twig, permet de développer des projets complet et puissant.</p>
-                <p>Aujourd&apos;hui je développe en Java que je continue d&apos;apprendre chaque jour.</p>
+                <p>Aujourd&apos;hui je développe en Java, bientôt en Node.js pour continuer d&apos;apprendre chaque jour.</p>
                 <p>Côté Back, je travaille essentiellement avec MariaDB, mais pour des raisons de coût je travaille aussi avec PostgreSQL en production</p>
             </section>
             <div id="transition"/>

@@ -51,7 +51,7 @@ const Projets = () => {
                         <p>Le GIVER a pour rôle de gérer les tâches (créer, modifier, réassigner, supprimer)</p>
                         <p>Le TASKER regarde et accepte ou refuse la tâche qu&apos;on lui a assignée, ensuite il l&apos;éxécute, puis confirme que la tâche est terminée sur la plateforme.</p>
                         <p>Codé avec PHP =&gt; Symfony, JavaScript =&gt; ReactJS, MariaDB en local et PostgreSQL en production</p>
-                        <p>La partie back de cette plateforme sera mise en production courant de semaine.</p>
+                        <p>La partie back de cette plateforme sera mise en production sous peu.</p>
                         <a className='top' href='https://task-giver-nprkh4ags-jeremylamacqs-projects.vercel.app'  target='_blank' rel='noreferrer'>Task Manager</a>
                         <a className='middle' href='https://github.com/JeremyLamacq/Task-Giver-Front'  target='_blank' rel='noreferrer'>dépôt GitHub Front</a>
                         <a href='https://github.com/JeremyLamacq/Task-Giver-Back'  target='_blank' rel='noreferrer'>dépôt GitHub Back</a>
@@ -62,8 +62,8 @@ const Projets = () => {
             <article className='article'>
                 <h2>Prochainement</h2>
                 <div id='last'>
-                    <p>Le prochain projet qui sera déployé sera un site permettant à des équipes de faire des pronostics entre eux sur les sujets de leurs choix. Je ne vous en dis pas plus, mais j&apos;espère pouvoir le présenter avant la fin de l&apos;année.</p>
-                    <p>Codé avec Java, JavaScript =&gt; RactJS</p>
+                    <p>Le prochain projet déployé sera un site permettant à des équipes de faire des pronostics entre eux sur les sujets de leurs choix. Je ne vous en dis pas plus, mais j&apos;espère pouvoir le présenter avant la fin de l&apos;année.</p>
+                    <p>Codé avec Node.js, JavaScript =&gt; ReactJS</p>
                 </div>
             </article>
             <div id="transition"/>

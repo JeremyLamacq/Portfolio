@@ -53,7 +53,7 @@ const HomePage = () => {
                 <p>Bonjour!</p>
                 <p>Passionné par le développement web, vous pourrez retrouver sur mon porfolio tout ce qu&apos;il y
                 a à savoir sur moi depuis que j&apos;ai commencé à travailler en 2011. </p>
-                <p>Ce portfolio et les nombreux projets à venir vont me permettre de continuer à progresser aussi bien avec ReactJS qu&apos;avec Symfony</p>   
+                <p>Ce portfolio et les nombreux projets à venir vont me permettre de continuer à progresser dans le développement</p>   
                 <div>   
                     <a href='https://www.linkedin.com/in/jeremy-lamacq/'  target='_blank' rel='noreferrer'><FaLinkedin /></a>
                     <a href='https://github.com/JeremyLamacq'  target='_blank' rel='noreferrer'><FaGithubSquare/></a>

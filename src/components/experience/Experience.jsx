@@ -11,7 +11,7 @@ const Experience = () => {
                 <h2 id='first'>Aujourd&apos;hui</h2>
                 <div>
                     <img src='/experiences/DEV.jpg' alt='developpement web' className='pictures'/>
-                    <p>Je partage actuellement mon temps entre le développement de ce portfolio, divers projet PHP et JAVA avec en Front JavaScipt et ReactJS et un travail en 3x8h en tant que conducteur de ligne</p>
+                    <p>Je partage actuellement mon temps entre le développement de ce portfolio, divers projet PHP et JAVA avec en Front JavaScipt et ReactJS et l&apos;apprentissage de Node.js</p>
                 </div>
             </article>
 
@@ -23,7 +23,7 @@ const Experience = () => {
                         Je m&apos;occupais ensuite de la ou les visites techniques pour définir le matériel à utiliser,d&apos;effectuer les différents devis, 
                         et enfin d&apos;organiser les différents chantiers au planning avec l’exploitant pour ensuite lui fournir toutes les informations nécessaires 
                         à la réalisation du chantier (plans, arrêté de voirie effectués par les soins, etc…).
-                        Il n&apos;était pas rare que j&apos;aille sur les chantiers pour le démarrage, 
+                        J&aps;allait autant que possible sur les chantiers pour le démarrage, 
                         je préparais ensuite la facturation client en comptabilisant les heures passées en chantier pour ensuite valider auprès du client
                     </p>
                     <img src='/experiences/CHARGE_AFFAIRES.jpg' alt='chargé d&apos;affaires' className='pictures'/>
